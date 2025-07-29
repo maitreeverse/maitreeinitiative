@@ -79,7 +79,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     // Create mailto link
     const subject = `Message from ${name} - Maitree Contact Form`;
     const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
-    const mailtoLink = `mailto:contact@maitree.org?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:maitreeinitiative@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     
     // Open email client
     window.location.href = mailtoLink;
