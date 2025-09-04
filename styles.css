@@ -150,6 +150,19 @@ body {
     line-height: 1.6;
 }
 
+.cross-border-banner {
+    background: rgba(255, 182, 193, 0.25); /* soft pink overlay */
+    color: #d63384; /* warm pink text */
+    font-weight: 600;
+    text-align: center;
+    padding: 0.6rem 1rem;
+    border-radius: 12px;
+    margin: 2rem auto; /* balances above/below */
+    display: inline-block;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
 .cta-buttons {
     display: flex;
     gap: 1rem;
@@ -821,4 +834,5 @@ body {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+
 }
